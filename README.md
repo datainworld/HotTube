@@ -4,6 +4,7 @@
 - HotTube.ipynb : HotTube.py의 주피터노트북 버전입니다.
 - get_yt_trending.py : YouTube API를 사용하여 유튜브에서 인기 동영상 데이터를 가져옵니다
 - get_yt_summary.py : YouTube 동영상의 자막을 가져와서 openAI의 API와 langchain을 이용하여 요약하는 기능을 수행합니다.
+- get_yt_summary_openai.py : langchain을 사용하지 않습니다. 따라서 gpt-3.5-turbo모델의 한계인 16,385 토큰을 초과하면 요약이 이루어지지 않습니다.
 - youtube_trending_videos.csv : get_yt_trending.py를 이용하여 추출한 샘플 데이터 파일입니다.
 - assets
   - hot50.png : 로고 이미지
